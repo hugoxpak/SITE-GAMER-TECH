@@ -489,14 +489,14 @@ footer {
 }
 
 /* Responsive */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     header .container {
         flex-direction: column;
         gap: 20px;
     }
     
     nav ul li {
-        margin: 0 10px;
+        margin: 0 100px;
     }
 
     .hero-content h2 {
