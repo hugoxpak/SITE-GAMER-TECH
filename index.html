@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Tech - Notícias de Tecnologia e Games</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>
+                    <img src="https://i.imgur.com/VM0Gyce.png" alt="Gamer Tech Logo" class="logo-img">
+                    Gamer <span>Tech</span>
+                </h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tecnologia.html">Tecnologia</a></li>
+                    <li><a href="informatica.html">Informática</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="hero" class="main-news">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop');">
+                        <div class="hero-content">
+                            <span class="category">Destaque</span>
+                            <h2>O Lançamento do Ano: Novo Console Gamer Revoluciona o Mercado</h2>
+                            <p>Confira todos os detalhes da nova geração de consoles que promete gráficos em 8K e latência zero.</p>
+                            <a href="#" class="btn">Ler Mais</a>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-item" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop');">
+                        <div class="hero-content">
+                            <span class="category">Games</span>
+                            <h2>GTA VI: Vazamentos indicam mapa colossal e novos sistemas</h2>
+                            <p>Novas informações sugerem que o mapa será duas vezes maior que o do jogo anterior.</p>
+                            <a href="#" class="btn">Ler Mais</a>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="carousel-item" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop');">
+                        <div class="hero-content">
+                            <span class="category">Hardware</span>
+                            <h2>Processadores de 2nm: O futuro do processamento mobile</h2>
+                            <p>A nova tecnologia promete eficiência energética sem precedentes para smartphones.</p>
+                            <a href="#" class="btn">Ler Mais</a>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="carousel-item" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=1200&auto=format&fit=crop');">
+                        <div class="hero-content">
+                            <span class="category">IA / Hardware</span>
+                            <h2>Monitores G-SYNC Pulsar: O Fim do Motion Blur</h2>
+                            <p>NVIDIA apresenta monitores que permitem o uso simultâneo de G-SYNC e ULMB.</p>
+                            <a href="#" class="btn">Ler Mais</a>
+                        </div>
+                    </div>
+                    <!-- Slide 5 -->
+                    <div class="carousel-item" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1593305841991-05c297ba4575?q=80&w=1200&auto=format&fit=crop');">
+                        <div class="hero-content">
+                            <span class="category">Hardware</span>
+                            <h2>Steam Controller: O Retorno da Valve ao Hardware</h2>
+                            <p>Novo controle promete precisão absoluta com thumbsticks magnéticos anti-drift.</p>
+                            <a href="#" class="btn">Ler Mais</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Controles do Carrossel -->
+                <button class="carousel-control prev">&lt;</button>
+                <button class="carousel-control next">&gt;</button>
+                
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="news-grid" class="secondary-news">
+            <article class="news-card">
+                <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop');"></div>
+                <div class="news-info">
+                    <span class="category">Hardware / IA</span>
+                    <h3>NVIDIA DLSS 4.5: O Futuro da Performance</h3>
+                    <p>Nova tecnologia DLSS 4.5 utiliza modelos Transformer de 2ª geração para garantir estabilidade visual e 6X Multi Frame Generation nas GPUs RTX série 50.</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop');"></div>
+                <div class="news-info">
+                    <span class="category">Games</span>
+                    <h3>GTA VI: Lançamento confirmado para Novembro de 2026</h3>
+                    <p>A Take-Two confirmou que o aguardado GTA VI chegará aos consoles em 19 de novembro de 2026, com orçamento estimado em mais de US$ 1 bilhão.</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop');"></div>
+                <div class="news-info">
+                    <span class="category">IA</span>
+                    <h3>AI Dungeon e o Futuro dos RPGs Generativos</h3>
+                    <p>Como a IA generativa está criando mundos infinitos e NPCs com diálogos orgânicos que lembram conversas reais, eliminando scripts repetitivos.</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1593305841991-05c297ba4575?q=80&w=800&auto=format&fit=crop');"></div>
+                <div class="news-info">
+                    <span class="category">Hardware</span>
+                    <h3>Novo Steam Controller com Thumbsticks Magnéticos</h3>
+                    <p>Valve lança novo controle com tecnologia TMR (Tunnel MagnetoResistance), eliminando o "drift" e garantindo durabilidade máxima para jogadores exigentes.</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=800&auto=format&fit=crop');"></div>
+                <div class="news-info">
+                    <span class="category">Games</span>
+                    <h3>Phantom Blade Zero: Demo Impressiona na Gamescom</h3>
+                    <p>O novo RPG de ação atingiu performance máxima rodando na série RTX 50, prometendo uma experiência frenética e visualmente impecável em 2026.</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=800&auto=format&fit=crop');"></div>
+                <div class="news-info">
+                    <span class="category">IA / Hardware</span>
+                    <h3>Monitores G-SYNC Pulsar: O Fim do Motion Blur</h3>
+                    <p>NVIDIA apresenta monitores que permitem o uso simultâneo de G-SYNC e ULMB, entregando nitidez absoluta mesmo em movimentos ultra-rápidos.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2 style="display: flex; align-items: center; gap: 10px;">
+                        <img src="https://i.imgur.com/VM0Gyce.png" alt="Gamer Tech Logo" class="logo-img">
+                        Gamer <span>Tech</span>
+                    </h2>
+                    <p>Sua fonte principal de notícias sobre o mundo tech.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Úteis</h3>
+                    <div class="footer-links-container">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="tecnologia.html">Tecnologia</a></li>
+                            <li><a href="informatica.html">Informática</a></li>
+                            <li><a href="games.html">Games</a></li>
+                            <li><a href="index.html#contato">Contato</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="sobre.html">Sobre Nós</a></li>
+                            <li><a href="#">Privacidade</a></li>
+                            <li><a href="#">Termos de Uso</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h3>Siga-nos</h3>
+                    <div class="social-icons">
+                        <a href="#" title="Facebook">FB</a>
+                        <a href="#" title="Instagram">IG</a>
+                        <a href="#" title="X (Twitter)">X</a>
+                        <a href="#" title="YouTube">YT</a>
+                        <a href="#" title="Google News">GN</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Gamer Tech. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" title="Voltar ao topo">
+        <span class="arrow-up"></span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
