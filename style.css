@@ -492,11 +492,11 @@ footer {
 @media (max-width: 768px) {
     header .container {
         flex-direction: column;
-        gap: 20px;
+        gap: 200px;
     }
     
     nav ul li {
-        margin: 0 100px;
+        margin: 0 10px;
     }
 
     .hero-content h2 {
