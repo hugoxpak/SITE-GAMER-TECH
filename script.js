@@ -121,4 +121,12 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.add('visible');
         }, 100 + (index * 100));
     });
+
+    // Animação de entrada de cards genéricos (fade-card) - p. ex. página de contato
+    const fadeCards = document.querySelectorAll('.fade-card');
+    fadeCards.forEach((card, index) => {
+        setTimeout(() => {
+            card.classList.add('visible');
+        }, 200 + (index * 200));
+    });
 });
